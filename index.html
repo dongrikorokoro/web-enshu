@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>my favorite the elements of HTML</title>
+        <link href="style/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>私の好きなHTML要素３選</h1>
+        </header>
+        <div id="contents">
+            <div id="toc">
+                <div id="toc-title">
+                    <h2>目次</h2>
+                </div>
+                <ol>
+                    <li><a href="#i1-0">code</a></li>
+                    <ul>
+                        <li>
+                            <a href="#i1-1">説明</a>
+                        </li>
+                        <li>
+                            <a href="#i1-2">使用例</a>
+                        </li>
+                    </ul>
+                    <li><a href="#i2-0">ruby</a></li>
+                    <ul>
+                        <li>
+                            <a href="#i2-1">説明</a>
+                        </li>
+                        <li>
+                            <a href="#i2-2">使用例</a>
+                        </li>
+                    </ul>
+                    <li><a href="#i3-0">samp</a></li>
+                    <ul>
+                        <li>
+                            <a href="#i3-1">説明</a>
+                        </li>
+                        <li>
+                            <a href="#i3-2">使用例</a>
+                        </li>
+                    </ul>
+               </ol>
+            </div>
+            <h3 id="i1-0">code</h3>
+            <h4 id="i1-1">説明</h4>
+            <p>
+                HTMLの
+                <code class="tag">&lt;code&gt;</code>
+                タグは，ソースコードの文字列を表示して見せるときに使います。<br>
+                このコードは文中でコードを紹介するときに使います。そして、複数行のコードを乗せるときには
+                <code class="tag">&lt;pre&gt;</code>
+                タグの中に
+                <code class="tag">&lt;code&gt;</code>
+                タグを入れ、その中にコードを書きます。
+            </p>
+            <h4 id="i1-2">使用例</h4>
+            <p>まず一行の場合、</p>
+            <code class="source">&lt;code&gt;&amp;lt;p&amp;gt;私の名前はダニエルです。&amp;lt;/p&amp;gt;&lt;/code&gt;</code>
+            <div class="result-box">
+                <code>&lt;p&gt;私の名前はダニエルです。&lt;/p&gt;</code>
+            </div>
+            <p>そして、複数行の場合、</p>
+            <pre class="source"><code>&lt;pre&gt;
+    &lt;code&gt;
+        &lt;p&gt;私の好きなゲームランキング&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;キングダムハーツ&lt;/li&gt;
+            &lt;li&gt;ドラゴンクエスト&lt;/li&gt;
+            &lt;li&gt;ブラッドボーン&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/code&gt;
+&lt;/pre&gt;</code></pre>
+            <div class="result-box">
+                <pre><code>&lt;p&gt;私の好きなゲームランキング&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;キングダムハーツ&lt;/li&gt;
+    &lt;li&gt;ドラゴンクエスト&lt;/li&gt;
+    &lt;li&gt;ブラッドボーン&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </div>
+            <h3 id="i2-0">ruby</h3>
+            <h4 id="i2-1">説明</h4>
+            <p>HTMLの<code class="tag">&lt;ruby&gt;</code>は、テキストにルビ（ふりがな）を振るために使います。<br>
+            ルビを振るためには<code class="tag">&lt;ruby&gt;</code>と<code class="tag">&lt;rt&gt;</code>を使います。</p>
+            <h4 id="i2-2">使用例</h4>
+            <p>1文字ごとにルビを振る</p>
+            <pre class="source"><code>&lt;ruby&gt;
+    好&lt;rt&gt;こう&lt;/rt&gt;汰&lt;rt&gt;た&lt;/rt&gt;
+&lt;/ruby&gt;</code></pre>
+            <div class="result-box">
+                <ruby>
+                    好<rt>こう</rt>汰<rt>た</rt>
+                </ruby>
+            </div>
+                <p>複数文字にルビを振る</p>
+                <pre class="source"><code>&lt;ruby&gt;
+    好汰&lt;rt&gt;こうた&lt;/rt&gt;
+&lt;/ruby&gt;</code></pre>
+            <div class="result-box">
+                <ruby>
+                    好汰<rt>こうた</rt>
+                </ruby>
+            </div>
+            <h3 id="i3-0">samp</h3>
+            <h4 id="i3-1">説明</h4>
+            <p>HTMLの<code class="tag">&lt;samp&gt;</code>タグは、プログラムからの出力内容を表すために使います。</p>
+            <h4 id="i3-2">使用例</h4>
+            <code class="source">&lt;p&gt;&lt;samp&gt;接続できませんでした&lt;/samp&gt;と表示された場合、ブラウザをリロードしてください。&lt;/p&gt;</code>
+            <div class="result-box">
+                <p><samp>接続できませんでした</samp>と表示された場合、ブラウザをリロードしてください。</p>
+            </div>
+        </div>
+        <footer>
+            <p>5420036 渡辺好汰 日本大学文理学部情報科学科Webプログラミングの演習課題</p>
+        </footer>
+    </body>
+</html>

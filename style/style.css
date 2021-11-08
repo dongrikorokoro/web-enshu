@@ -1,0 +1,113 @@
+header {
+    width: 100%;
+    text-align:center;
+    background-color: rgb(203, 247, 203);
+    padding: 20px 0;
+}
+
+
+body {
+    margin: 0;
+    background-color:rgb(255, 250, 208);
+}
+
+#contents{
+    max-width : 860px;
+    margin: 10px auto;
+    padding: 0 40px;
+    border: 2px solid rgb(151, 147, 147);
+    background-color : rgb(255,255,255);
+}
+
+#toc {
+    margin: 10px;
+    border: 1px solid rgb(151, 147, 147);
+    border-radius: 10px;
+}
+
+#toc-title {
+    background-color:rgb(151, 147, 147);
+    text-align:center;
+    padding: 15px 0 5px;
+    border-radius:10px 10px 0;
+}
+
+ol {
+    padding: 10px 20px 15px 100px;
+}
+
+ol>li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+
+ul>li a{
+   text-decoration: none;
+   color:rgb(121, 121, 121);
+}
+
+li {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    margin: 50px 0 20px;
+    padding: 10px 0 10px 10px;
+    font-size: 30px;
+    border-left: 4px solid rgb(0, 0, 0);
+}
+
+h4 {
+    margin: 20px 0 10px;
+    padding:10px 0 10px 10px;
+    font-size: 20px;
+    border-left: 2px solid rgb(121, 121, 121); 
+    color : rgb(121, 121, 121);
+}
+
+.source {
+    margin: 1px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #25292f;
+    color: #fff;
+    overflow-x:auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 350px;
+}
+
+.result-box {
+    margin:10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 350px;
+    border:4px double rgb(121, 121, 121);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.1em 0.2em;
+    background-color:rgb(199, 199, 199);
+    border-radius: 3px;
+}
+
+pre {
+    margin : 0;
+    padding : 0;
+}
+
+footer {
+    width : 100%;
+    text-align: center;
+    background-color:rgb(203, 247, 203);
+    padding:20px 0;
+}
+
